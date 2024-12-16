@@ -1,0 +1,1 @@
+This example highlights a subtle issue with Kotlin's collection immutability. The `listOf()` function creates immutable lists. While the code works as expected, attempts to modify these lists (e.g., adding or removing elements) will result in runtime exceptions.  The solution demonstrates how to use mutable collections when modifications are needed.
